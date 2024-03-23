@@ -1,0 +1,73 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card{
+  width:275px;
+  height:380px;
+  background-color: white;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+  box-sizing: border-box;
+}
+.img1{
+  width:100%;
+  height:auto;
+  border-radius: 10px;
+}
+.img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+button{
+  background-color: hsl(47, 88%, 63%);
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  font-size: 11px;
+  width:60px;
+  height: 25px;
+  font-weight: 800;
+  font-family: Figtree-VariableFont;
+  cursor: pointer;
+  margin-top: 17px;
+}
+.text-1{
+  font-size: 12px;
+  font-family: Figtree-VariableFont;
+  margin-top: 11px;
+}
+.text-2{
+   font-family:Figtree-VariableFont;
+   margin-top: 12px;
+   font-weight: bold;
+}
+.text-3{
+   font-family:Figtree-VariableFont;
+   font-size: 12px;
+   color:hsl(0, 0%, 50%);
+   width:100%;
+   margin-top: 10px;
+   line-height: 18px;
+
+}
+.footer{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.img2{
+  width: 30px;
+}
+.text-4{
+  margin-left: 10px;
+  font-family:Figtree-VariableFont;
+  font-size: 12px;
+  font-weight: bold;
+}
